@@ -53,9 +53,12 @@ h2{
     position: absolute;
 }
 
-.section-hero {
+.flexible {
     display: flex;
-    gap: 10%;
+    gap: 5%;
+}
+
+.section-hero {
     margin: 0 11% 50px 11%;
 }
 
@@ -89,8 +92,6 @@ h2{
 }
 
 .content-area {
-    display: flex;
-    gap: 15px;
     padding: 20px 0;
     margin: 0 11% 50px 11%;
 }
@@ -118,27 +119,48 @@ h2{
     background-color: #FFF4D6;
 }
 
-.section-develop {
-    display: flex;
-    gap: 20px;
-    margin-bottom: 50px;
+.common {
+    margin-bottom: 70px;
     padding: 0 11% 0 11%;
-    background-image: url(./images/shapes/shape-1.png);
-    background-position: left;
     background-repeat: no-repeat;
     background-size: 300px;
 }
+.section-develop {
+    background-image: url(./images/shapes/shape-1.png);
+    background-position: left;
+}
 
-.img-develop {
+.img-container {
     width: 40%;
 }
 
-.img-develop img {
+.img-container img {
     width: 100%;
 }
 
-.text-develop {
+.text-container {
     width: 60%;
     margin-left: 40px;
     align-self: center;
+}
+
+.section-community {
+    padding: 0 0 50px 0;
+    background-image: url(./images/shapes/shape-1.png);
+    background-position: right;
+    background-position-y: 250px;
+}
+
+
+.img-app {
+    background-image: url(./images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 80px;
+    background-position-x: 50px;
+    background-position-y: 0px;
+}
+.img-app img {
+    width: 70%;
+    margin-left: 55px;
 }
