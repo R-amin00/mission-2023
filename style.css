@@ -30,13 +30,24 @@ h2{
     font-size: 60px;
     font-weight: 500;
     margin-left: 15px;
+    font-family: 'Yeseva One', cursive;
 }
 
+.red-heading {
+    color: #FF5959;
+    
+}
 .color-heading {
-    font-family: 'Inter', yeseva-one;
     color: #ffad5a;
 }
 
+
+.heading-footer {
+    color: aliceblue;
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    line-height: 44px;
+}
 .heading-box {
     position: relative;
 }
@@ -65,7 +76,7 @@ h2{
 .text-area {
     align-self: center;
     width: 60%;
-    padding: 50px 0;
+    padding: 60px 0;
 }
 
 .text-area p {
@@ -145,10 +156,10 @@ h2{
 }
 
 .section-community {
-    padding: 0 0 50px 0;
+    padding: 0 11% 135px 11%;
     background-image: url(./images/shapes/shape-1.png);
     background-position: right;
-    background-position-y: 250px;
+    background-position-y: 220px;
 }
 
 
@@ -163,4 +174,13 @@ h2{
 .img-app img {
     width: 70%;
     margin-left: 55px;
+}
+
+
+.footer {
+    width: 100%;
+    padding: 15px 0;
+    background-color: #0B0D17;
+    color: aliceblue;
+    text-align: center;
 }
